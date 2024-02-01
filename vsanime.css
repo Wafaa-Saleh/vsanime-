@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+header {
+    height: auto;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 12;
+}
+
+.logo {
+    font-family: 'Aclonica';
+    font-size: 25px;
+    padding-top:15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-bar {
+    font-family: 'poppins';
+    font-size: 20px;
+    float: right;
+}
+
+.nav-bar li {
+    display: inline-block;
+}
+
+.nav-bar li a {
+    padding: 15px;
+
+}
+
+.nav-bar li a:hover {
+    background: rgb(79, 97, 116);
+    color: #fff;
+    border: 1px hidden #000;
+    border-radius: 5px;
+    border-width: auto;
+    transition: 0.3s ease;
+    transform: scale(1.1);
+}
+
+.icons {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.icons a:hover {
+    color: #fc1c54;
+
+}
+.carousel-item .box
+{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    padding:25px;
+    border-radius: 50px;
+
+}
+
+.carousel-item img {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 70vh;
+
+}
+
+.newanime {
+    background-color: rgb(31, 48, 42);
+}
+
+.newanime .title {
+
+    margin: 20px;
+    background-color: #fc1c54;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    display: inline-block;
+    transition: 0.7s ease;
+}
+
+.content-anime {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card-anime {
+    margin: 15px;
+    transition: 0.7s ease;
+
+}
+
+.card-anime .box {
+    /* background:center; */
+    min-height: 200px;
+    min-width: 300px;
+    background-size: 100%;
+
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-anime .box .content p {
+
+    color: white;
+    background-color: #fc1c54;
+    /* background: rgba(0,0,0,0.5); */
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.info-anime {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #fff;
+    padding-left: 10px;
+}
+
+.info-anime a {
+    color: brown;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+.number {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.number a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: white;
+    color: #000;
+    margin: 10px;
+    box-shadow: 0px 5px 10px rgba(255, 0, 106, 0.15);
+    transition: 0.7s ease;
+    /* top or down / right or left / deg of blured / and feg of color */
+}
+.card-anime:hover, .info-anime a:hover , .newanime .title:hover
+{
+    transform: scale(1.1);
+
+}
+.number a:hover {
+    color: #fc1c54;
+    transform: scale(1.1);
+}
+
+.last {
+    width: 100%;
+    background-color: #4d343a;
+    height: 18%;
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 10px 150px;
+    font-size: 1.3em;
+    text-transform: capitalize;
+
+}
+
+#para1>a {
+    color: black;
+    text-decoration: none;
+
+}
+
+#para1>a:hover {
+    color: #fc1c54;
+
+}
+
+.last a:hover {
+    color: #fc1c54;
+
+}
+
+.last div a {
+    padding-right: 20px;
+    color: white;
+}
+
+.last h6 {
+    color: black;
+}
